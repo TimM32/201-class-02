@@ -4,62 +4,62 @@ console.log('app file is connected!');
 let userName = prompt('What is your name?');
 console.log('user name is: ', userName);
 
-let userAnswer = prompt('Do I sometimes play video games in my free time? Please answer yes or no!');
-console.log('🚀 ~ file: app.js:16 ~ userAnswer:', userAnswer);
+let videoGames = prompt('Do I sometimes play video games in my free time? Please answer yes or no!');
+console.log('🚀 ~ file: app.js:16 ~ userAnswer:', videoGames);
 
-let lowerCaseInput = userAnswer.toLowerCase();
-console.log('🚀 ~ file: app.js:20 ~ lowerCaseInput:', lowerCaseInput);
+let gamelowerCase = videoGames.toLowerCase();
+console.log('🚀 ~ file: app.js:20 ~ lowerCaseInput:', gamelowerCase);
 
-if (lowerCaseInput === 'yes' || lowerCaseInput === 'y') {
-    alert('Your right! Video games help me relax!');
+if (gamelowerCase === 'yes' || gamelowerCase === 'y') {
+  alert('Your right! Video games help me relax!');
 } else {
-    alert('Wrong answer! I do play video games in my spare time');
+  alert('Wrong answer! I do play video games in my spare time');
 }
 
-let userAnswer = prompt('Did I play sports in College? Please answer yes or no!');
-console.log('🚀 ~ file: app.js:16 ~ userAnswer:', userAnswer);
+let sportsAnswer = prompt('Did I play sports in College? Please answer yes or no!');
+console.log('🚀 ~ file: app.js:16 ~ userAnswer:', sportsAnswer);
 
-let lowerCaseInput = userAnswer.toLowerCase();
-console.log('🚀 ~ file: app.js:20 ~ lowerCaseInput:', lowerCaseInput);
+let sportlowerCase = sportsAnswer.toLowerCase();
+console.log('🚀 ~ file: app.js:20 ~ lowerCaseInput:', sportlowerCase);
 
-if (lowerCaseInput === 'yes' || lowerCaseInput === 'y') {
-    alert('Correct! Played Rugby at SMC!');
+if (sportlowerCase === 'yes' || sportlowerCase === 'y') {
+  alert('Correct! Played Rugby at SMC!');
 } else {
-    alert('Incorrect! Sports was a vital part of my college experience');
+  alert('Incorrect! Sports was a vital part of my college experience');
 }
 
-let userAnswer = prompt('Have I lived outside the U.S.A? Please answer yes or no!');
-console.log('🚀 ~ file: app.js:16 ~ userAnswer:', userAnswer);
+let countryAnswer = prompt('Have I lived outside the U.S.A? Please answer yes or no!');
+console.log('🚀 ~ file: app.js:16 ~ userAnswer:', countryAnswer);
 
-let lowerCaseInput = userAnswer.toLowerCase();
-console.log('🚀 ~ file: app.js:20 ~ lowerCaseInput:', lowerCaseInput);
+let irelandlowerCase = countryAnswer.toLowerCase();
+console.log('🚀 ~ file: app.js:20 ~ lowerCaseInput:', irelandlowerCase);
 
-if (lowerCaseInput === 'yes' || lowerCaseInput === 'y') {
-    alert('Your right! I lived in Ireland for 4 years!');
+if (irelandlowerCase === 'yes' || irelandlowerCase === 'y') {
+  alert('Your right! I lived in Ireland for 4 years!');
 } else {
-    alert('Sorry, you are wrong!');
+  alert('Sorry, you are wrong!');
 }
 
-let userAnswer = prompt('Is Cake my favorite dessert? Please answer yes or no!');
-console.log('🚀 ~ file: app.js:16 ~ userAnswer:', userAnswer);
+let dessertAnswer = prompt('Is Cake my favorite dessert? Please answer yes or no!');
+console.log('🚀 ~ file: app.js:16 ~ userAnswer:', dessertAnswer);
 
-let lowerCaseInput = userAnswer.toLowerCase();
-console.log('🚀 ~ file: app.js:20 ~ lowerCaseInput:', lowerCaseInput);
+let dessertlowerCase = dessertAnswer.toLowerCase();
+console.log('🚀 ~ file: app.js:20 ~ lowerCaseInput:', dessertlowerCase);
 
-if (lowerCaseInput === 'yes' || lowerCaseInput === 'y') {
-    alert('You are unfortunately Wrong! Cookies would be number 1!');
+if (dessertlowerCase === 'yes' || dessertlowerCase === 'y') {
+  alert('You are unfortunately Wrong! Cookies would be number 1!');
 } else {
-    alert('Right answer! Homemade Cookies are my favorite, but cant is a close second!');
+  alert('Right answer! Homemade Cookies are my favorite, but cant is a close second!');
 }
 
-let userAnswer = prompt('Is Football my favorite Sport? Please answer yes or no!');
-console.log('🚀 ~ file: app.js:16 ~ userAnswer:', userAnswer);
+let favSports = prompt('Is Football my favorite Sport? Please answer yes or no!');
+console.log('🚀 ~ file: app.js:16 ~ userAnswer:', favSports);
 
-let lowerCaseInput = userAnswer.toLowerCase();
-console.log('🚀 ~ file: app.js:20 ~ lowerCaseInput:', lowerCaseInput);
+let favlowerCase = favSports.toLowerCase();
+console.log('🚀 ~ file: app.js:20 ~ lowerCaseInput:', favlowerCase);
 
-if (lowerCaseInput === 'yes' || lowerCaseInput === 'y') {
-    alert('Nope! That would be Rugby, I played it!');
+if (favlowerCase === 'yes' || favlowerCase === 'y') {
+  alert('Nope! That would be Rugby, I played it!');
 } else {
-    alert('You are right! Rugby to be is the most entertaining sport!');
+  alert('You are right! Rugby to be is the most entertaining sport!');
 }

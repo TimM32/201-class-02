@@ -52,14 +52,14 @@ if (lowerCaseInput === 'yes' || lowerCaseInput === 'y') {
     alert('Right answer! Homemade Cookies are my favorite, but cant is a close second!');
 }
 
-let userAnswer = prompt('Is my favorite food pizza? Please answer yes or no!');
+let userAnswer = prompt('Is Football my favorite Sport? Please answer yes or no!');
 console.log('🚀 ~ file: app.js:16 ~ userAnswer:', userAnswer);
 
 let lowerCaseInput = userAnswer.toLowerCase();
 console.log('🚀 ~ file: app.js:20 ~ lowerCaseInput:', lowerCaseInput);
 
 if (lowerCaseInput === 'yes' || lowerCaseInput === 'y') {
-    alert('Your right! My favorite food is pizza!');
+    alert('Nope! That would be Rugby, I played it!');
 } else {
-    alert('Nope! Pizza is my favorite food!');
+    alert('You are right! Rugby to be is the most entertaining sport!');
 }

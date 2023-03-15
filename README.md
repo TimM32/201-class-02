@@ -1,6 +1,6 @@
 # 201-class-02
 
-# Class 201 Lab02
+## Class 201 Lab02
 
 ### Author: Tim Maupin
 

@@ -1,6 +1,8 @@
 'use strict';
 console.log('app file is connected!');
 
+alert('Hello Welcome to the Guessing Game by Tim');
+
 let userName = prompt('What is your name?');
 console.log('user name is: ', userName);
 

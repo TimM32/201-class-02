@@ -25,17 +25,17 @@ let sportlowerCase = sportsAnswer.toLowerCase();
 
 if (sportlowerCase === 'yes' || sportlowerCase === 'y') {
   alert('Correct! Played Rugby at SMC!');
+  userPoints = userPoints + 1;
 } else {
   alert('Incorrect! Sports was a vital part of my college experience');
 }
 
 let countryAnswer = prompt('Have I lived outside the U.S.A? Please answer yes or no!');
 
-
 let irelandlowerCase = countryAnswer.toLowerCase();
-
 if (irelandlowerCase === 'yes' || irelandlowerCase === 'y') {
   alert('Your right! I lived in Ireland for 4 years!');
+  userPoints = userPoints + 1;
 } else {
   alert('Sorry, you are wrong!');
 }
@@ -48,6 +48,7 @@ if (dessertlowerCase === 'yes' || dessertlowerCase === 'y') {
   alert('You are unfortunately Wrong! Cookies would be number 1!');
 } else {
   alert('Right answer! Homemade Cookies are my favorite, but cake is a close second!');
+  userPoints = userPoints + 1;
 }
 
 let favSports = prompt('Is Football my favorite Sport? Please answer yes or no!');
@@ -58,6 +59,7 @@ if (favlowerCase === 'yes' || favlowerCase === 'y') {
   alert('Nope! That would be Rugby, I played it!');
 } else {
   alert('You are right! Rugby to be is the most entertaining sport!');
+  userPoints = userPoints + 1;
 }
 
 alert('Thanks for playing my game ' + userName);

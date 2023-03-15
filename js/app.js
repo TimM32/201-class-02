@@ -78,8 +78,12 @@ while (attempts < 4) {
 }
 alert('Dang! The right answer is 5.');
 
-let countriesVisited = ['Irealand', 'England', 'Egypt', 'Germnay', ]
+let countriesVisited = ['Ireland', 'England', 'Egypt', 'Germnay', 'Australia', 'New Zealand', 'Scotland', 'Italy', 'France', 'Romania', 'Brazil', 'Argentina', 'Uruguay', 'Israel', 'Japan'];
+let userAttempts = 0;
+while (attempts < 6) {
+  userAttempts = userAttempts + 1;
+  console.log('attempts', userAttempts);
 
 
-
+}
 alert('Thanks for playing my game ' + userName);

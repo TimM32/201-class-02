@@ -76,14 +76,14 @@ while (attempts < 4) {
     userPoints = userPoints + 1;
   }
 }
-alert('Dang! The right answer is 5.');
+alert('Dang! The right answer is 8.');
 
-let countriesVisited = ['Ireland', 'England', 'Egypt', 'Germnay', 'Australia', 'New Zealand', 'Scotland', 'Italy', 'France', 'Romania', 'Brazil', 'Argentina', 'Uruguay', 'Israel', 'Japan'];
-let userAttempts = 0;
-while (attempts < 6) {
-  userAttempts = userAttempts + 1;
-  console.log('attempts', userAttempts);
+// let countriesVisited = ['Ireland', 'England', 'Egypt', 'Germnay', 'Australia', 'New Zealand', 'Scotland', 'Italy', 'France', 'Romania', 'Brazil', 'Argentina', 'Uruguay', 'Israel', 'Japan'];
+// let userAttempts = 0;
+// while (attempts < 6) {
+//   userAttempts = userAttempts + 1;
+//   console.log('attempts', userAttempts);
 
 
-}
+// }
 alert('Thanks for playing my game ' + userName);

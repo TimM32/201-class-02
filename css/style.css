@@ -13,7 +13,10 @@ ul li {
     border-radius: 15px;
 }
 
-
+p {
+    font-size: 20px;
+    background-color: rgb(16, 68, 68);
+}
 
 
 

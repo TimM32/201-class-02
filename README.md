@@ -6,4 +6,4 @@
 
 ### Lighthouse Accessibility Report Scoure
 
-![Light House Accesdibility](images/Lighthouse image)
+![Light House Accesdibility](images/Coding-lighthouse.PNG)

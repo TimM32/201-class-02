@@ -28,7 +28,7 @@ if (lowerCaseInput === 'yes' || lowerCaseInput === 'y') {
   alert('Incorrect! Sports was a vital part of my college experience');
 }
 
-let userAnswer = prompt('Is my favorite food pizza? Please answer yes or no!');
+let userAnswer = prompt('Have I lived outside the U.S.A? Please answer yes or no!');
 console.log('🚀 ~ file: app.js:16 ~ userAnswer:', userAnswer);
 
 // transform to lower Case
@@ -36,9 +36,9 @@ let lowerCaseInput = userAnswer.toLowerCase();
 console.log('🚀 ~ file: app.js:20 ~ lowerCaseInput:', lowerCaseInput);
 
 if (lowerCaseInput === 'yes' || lowerCaseInput === 'y') {
-  alert('Your right! My favorite food is pizza!');
+  alert('Your right! I lived in Ireland for 4 years!');
 } else {
-  alert('Nope! Pizza is my favorite food!');
+  alert('Sorry, you are wrong!');
 }
 
 let userAnswer = prompt('Is my favorite food pizza? Please answer yes or no!');

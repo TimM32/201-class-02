@@ -4,6 +4,12 @@ body {
     width: 1200px;
     font-size: 30px;
 }
+header {
+    padding-top: 20px;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
 
 ul li {
     display: inline;
@@ -11,11 +17,25 @@ ul li {
     padding-right: 20px;
     background-color: blue;
     border-radius: 15px;
+    color: aliceblue;
 }
 
 p {
     font-size: 20px;
     background-color: rgb(16, 68, 68);
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+ol li {
+    text-align: center;
+    font-size: 30px;
+
+
 }
 
 

@@ -1,6 +1,7 @@
 'use strict';
 console.log('app file is connected!');
 let userPoints = 0;
+console.log('points?', userPoints);
 
 alert('Hello Welcome to the Guessing Game by Tim');
 
@@ -13,7 +14,7 @@ let gamelowerCase = videoGames.toLowerCase();
 
 if (gamelowerCase === 'yes' || gamelowerCase === 'y') {
   alert('Your right! Video games help me relax!');
-  userPoints === userPoints + 1;
+  userPoints = userPoints + 1;
 } else {
   alert('Wrong answer! I do play video games in my spare time');
 }

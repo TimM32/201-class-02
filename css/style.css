@@ -5,4 +5,11 @@ body {
     font-size: 30px;
 }
 
-h2{}
+h2 {
+
+}
+
+
+#about-body {
+    background-color: aquamarine;
+}

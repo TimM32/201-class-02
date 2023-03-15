@@ -62,4 +62,24 @@ if (favlowerCase === 'yes' || favlowerCase === 'y') {
   userPoints = userPoints + 1;
 }
 
+let rightNumber = 8;
+let attempts = 0;
+while (attempts < 4) {
+  attempts = attempts + 1;
+  let guessNumber = parseInt(prompt('Guess a number, 1-10! You get four tries.'));
+  if (guessNumber <= 7) {
+    alert('Too low, guess again!');
+  } else if (guessNumber >= 9) {
+    alert('Too high, guess again!');
+  } if (guessNumber === rightNumber) {
+    alert('You guessed the correct number, ' + guessNumber + '! Good job.');
+    userPoints = userPoints + 1;
+  }
+}
+alert('Dang! The right answer is 5.');
+
+let countriesVisited = ['Irealand', 'England', 'Egypt', 'Germnay', ]
+
+
+
 alert('Thanks for playing my game ' + userName);

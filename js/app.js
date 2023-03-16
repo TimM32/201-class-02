@@ -3,7 +3,7 @@ console.log('app file is connected!');
 let userPoints = 0;
 console.log('points?', userPoints);
 
-alert('Hello Welcome to the Guessing Game by Tim');
+alert('Hello! Welcome to the Guessing Game by Tim!');
 
 function getUserName(){
   let userName = prompt('What is your name?');

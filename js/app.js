@@ -10,15 +10,15 @@ let userName = prompt('What is your name?');
 console.log('user name is: ', userName);
 alert('Welcome ' + userName);
 
-function getVideoGames(); {
-let videoGames = prompt('Do I sometimes play video games in my free time? Please answer yes or no!');
-let gamelowerCase = videoGames.toLowerCase();
-if (gamelowerCase === 'yes' || gamelowerCase === 'y') {
-  alert('Your right! Video games help me relax!');
-  userPoints = userPoints + 1;
-} else {
-  alert('Wrong answer! I do play video games in my spare time');
-}
+function getVideoGames(){
+  let videoGames = prompt('Do I sometimes play video games in my free time? Please answer yes or no!');
+  let gamelowerCase = videoGames.toLowerCase();
+  if (gamelowerCase === 'yes' || gamelowerCase === 'y') {
+    alert('Your right! Video games help me relax!');
+    userPoints = userPoints + 1;
+  } else {
+    alert('Wrong answer! I do play video games in my spare time');
+  }
 }
 
 
@@ -111,3 +111,11 @@ let results = document.getElementById('results');
 console.log(results);
 let finalresults = 'You guessed' + userAttempts + ' and got' + correctAnswer + ' correct answers.';
 results.innerHTML = finalresults;
+
+
+function runMyGame(){
+  getVideoGames();
+
+}
+
+runMyGame();

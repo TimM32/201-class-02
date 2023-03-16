@@ -86,7 +86,7 @@ let userAttempts = 0;
 let correctAnswer = 0;
 
 while (attempts !== 6) {
-  let userAnswer = prompt('What countries of the world have I visited');
+  let userAnswer = prompt('What countries in the world have I visited');
   let normalizedInput = userAnswer.toLowerCase().trim();
 
   if (countriesVisited.indexOf(normalizedInput) >= 0) {

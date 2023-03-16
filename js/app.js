@@ -77,8 +77,9 @@ while (attempts < 4) {
     break;
     // } if (guessNumber === wrongNumber) {
   }
+  alert('Dang! The right answer is 8.');
 }
-alert('Dang! The right answer is 8.');
+
 
 // let countriesVisited = ['Ireland', 'England', 'Egypt', 'Germnay', 'Australia', 'New Zealand', 'Scotland', 'Italy', 'France', 'Romania', 'Brazil', 'Argentina', 'Uruguay', 'Israel', 'Japan'];
 // let userAttempts = 0;

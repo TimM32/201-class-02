@@ -10,6 +10,8 @@ let userName = prompt('What is your name?');
 console.log('user name is: ', userName);
 alert('Welcome ' + userName);
 
+runMyGame();
+
 function getVideoGames(){
   let videoGames = prompt('Do I sometimes play video games in my free time? Please answer yes or no!');
   let gamelowerCase = videoGames.toLowerCase();
@@ -83,9 +85,9 @@ function getrightNumber(){
     }
 
   }
-}
-alert('Dang! The right answer is 8.');
 
+  alert('Dang! The right answer is 8.');
+}
 
 function getcountriesVisited(){
   let countriesVisited = ['ireland', 'england', 'egypt', 'germany', 'australia', 'new zealand', 'scotland', 'italy', 'france', 'romania', 'brazil', 'argentina', 'uruguay', 'israel', 'japan'];
@@ -130,4 +132,4 @@ function runMyGame(){
   getcountriesVisited();
 }
 
-runMyGame();
+

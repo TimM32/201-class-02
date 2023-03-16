@@ -86,30 +86,33 @@ function getrightNumber(){
 }
 alert('Dang! The right answer is 8.');
 
-let countriesVisited = ['ireland', 'england', 'egypt', 'germany', 'australia', 'new zealand', 'scotland', 'italy', 'france', 'romania', 'brazil', 'argentina', 'uruguay', 'israel', 'japan'];
-let userAttempts = 0;
-let correctAnswer = 0;
 
-while (userAttempts < 6) {
-  let userAnswer = prompt('What countries in the world have I visited');
-  let normalizedInput = userAnswer.toLowerCase().trim();
+function getcountriesVisited(){
+  let countriesVisited = ['ireland', 'england', 'egypt', 'germany', 'australia', 'new zealand', 'scotland', 'italy', 'france', 'romania', 'brazil', 'argentina', 'uruguay', 'israel', 'japan'];
+  let userAttempts = 0;
+  let correctAnswer = 0;
 
-  if (countriesVisited.indexOf(normalizedInput) >= 0) {
-    alert('Yes!' + userAnswer + ' is a country I lived in.');
-    correctAnswer++;
-  } else {
-    alert('Wrong Answer');
+  while (userAttempts < 6) {
+    let userAnswer = prompt('What countries in the world have I visited');
+    let normalizedInput = userAnswer.toLowerCase().trim();
+
+    if (countriesVisited.indexOf(normalizedInput) >= 0) {
+      alert('Yes!' + userAnswer + ' is a country I lived in.');
+      correctAnswer++;
+    } else {
+      alert('Wrong Answer');
+    }
+    userAttempts = userAttempts + 1;
+    console.log('attempts', userAttempts);
+
+
   }
-  userAttempts = userAttempts + 1;
-  console.log('attempts', userAttempts);
 
 
+  alert('You answered ' + correctAnswer + 'out of 6');
+  alert('All the countries I visited are:' + countriesVisited.join(', '));
+  alert('Thanks for playing my game ' + userName);
 }
-
-alert('You answered ' + correctAnswer + 'out of 6');
-alert('All the countries I visited are:' + countriesVisited.join(', '));
-alert('Thanks for playing my game ' + userName);
-
 
 let results = document.getElementById('results');
 console.log(results);
@@ -124,6 +127,7 @@ function runMyGame(){
   getdessertAnswer();
   getfavSports();
   getrightNumber();
+  getcountriesVisited();
 }
 
 runMyGame();

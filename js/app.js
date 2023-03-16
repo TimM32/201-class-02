@@ -32,15 +32,16 @@ function getsportsAnswer(){
   }
 }
 
-let countryAnswer = prompt('Have I lived outside the U.S.A? Please answer yes or no!');
-let irelandlowerCase = countryAnswer.toLowerCase();
-if (irelandlowerCase === 'yes' || irelandlowerCase === 'y') {
-  alert('Your right! I lived in Ireland for 4 years!');
-  userPoints = userPoints + 1;
-} else {
-  alert('Sorry, you are wrong!');
+function getcountryAnswer(){
+  let countryAnswer = prompt('Have I lived outside the U.S.A? Please answer yes or no!');
+  let irelandlowerCase = countryAnswer.toLowerCase();
+  if (irelandlowerCase === 'yes' || irelandlowerCase === 'y') {
+    alert('Your right! I lived in Ireland for 4 years!');
+    userPoints = userPoints + 1;
+  } else {
+    alert('Sorry, you are wrong!');
+  }
 }
-
 
 
 let dessertAnswer = prompt('Is Cake my favorite dessert? Please answer yes or no!');
@@ -116,6 +117,7 @@ results.innerHTML = finalresults;
 function runMyGame(){
   getVideoGames();
   getsportsAnswer();
+  getcountryAnswer();
 }
 
 runMyGame();

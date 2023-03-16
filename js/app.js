@@ -74,7 +74,8 @@ while (attempts < 4) {
   } if (guessNumber === rightNumber) {
     alert('You guessed the correct number, ' + guessNumber + '! Good job.');
     userPoints = userPoints + 1;
-  // } if (guessNumber === wrongNumber) {
+    break;
+    // } if (guessNumber === wrongNumber) {
   }
 }
 alert('Dang! The right answer is 8.');

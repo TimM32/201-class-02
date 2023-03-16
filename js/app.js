@@ -72,7 +72,7 @@ while (attempts < 4) {
   } else if (guessNumber >= 9) {
     alert('Too high, guess again!');
   } if (guessNumber === rightNumber) {
-    alert('You guessed the correct number, ' + guessNumber + '! Good job.');
+    alert('You guessed the correct number, ' + guessNumber + '! Great work!');
     userPoints = userPoints + 1;
     break;
     // } if (guessNumber === wrongNumber) {

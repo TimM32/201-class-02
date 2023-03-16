@@ -81,12 +81,23 @@ while (attempts < 4) {
 }
 alert('Dang! The right answer is 8.');
 
-// let countriesVisited = ['Ireland', 'England', 'Egypt', 'Germnay', 'Australia', 'New Zealand', 'Scotland', 'Italy', 'France', 'Romania', 'Brazil', 'Argentina', 'Uruguay', 'Israel', 'Japan'];
-// let userAttempts = 0;
-// while (attempts < 6) {
-//   userAttempts = userAttempts + 1;
-//   console.log('attempts', userAttempts);
+let countriesVisited = ['ireland', 'england', 'egypt', 'germany', 'australia', 'new zealand', 'scotland', 'italy', 'france', 'romania', 'brazil', 'argentina', 'uruguay', 'israel', 'japan'];
+let userAttempts = 0;
+let correctAnswer = 0;
+
+while (attempts !== 6) {
+  let userAnswer = prompt('What states of the world have I live in?');
+  let normalizedInput = userAnswer.toLowerCase().trim();
+
+  if(countriesVisited.indexOf(normalizedInput) >=0){
+    alert('Yes!' + userAnswer+ ' is a country I lived in.');
+    correctAnswer++;
+  } else {
+    alert('Wrong Answer');
+  }
+  userAttempts = userAttempts + 1;
+  console.log('attempts', userAttempts);
 
 
-// }
+}
 alert('Thanks for playing my game ' + userName);

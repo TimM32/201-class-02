@@ -89,8 +89,8 @@ while (attempts !== 6) {
   let userAnswer = prompt('What countries of the world have I visited');
   let normalizedInput = userAnswer.toLowerCase().trim();
 
-  if(countriesVisited.indexOf(normalizedInput) >=0){
-    alert('Yes!' + userAnswer+ ' is a country I lived in.');
+  if (countriesVisited.indexOf(normalizedInput) >= 0) {
+    alert('Yes!' + userAnswer + ' is a country I lived in.');
     correctAnswer++;
   } else {
     alert('Wrong Answer');
@@ -100,4 +100,13 @@ while (attempts !== 6) {
 
 
 }
+
+alert('You answered ' + correctAnswer + 'out of 6');
+alert('All the countries I visited are:' + countriesVisited.join(', '));
 alert('Thanks for playing my game ' + userName);
+
+
+let results = document.getElementById('results');
+console.log(results);
+let finalresults = 'You guessed' + userAttempts + ' and got' + correctAnswer + ' correct answers.';
+results.innerHTML= finalresults;

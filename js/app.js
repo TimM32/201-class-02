@@ -21,16 +21,16 @@ function getVideoGames(){
   }
 }
 
-
-let sportsAnswer = prompt('Did I play sports in College? Please answer yes or no!');
-let sportlowerCase = sportsAnswer.toLowerCase();
-if (sportlowerCase === 'yes' || sportlowerCase === 'y') {
-  alert('Correct! Played Rugby at SMC!');
-  userPoints = userPoints + 1;
-} else {
-  alert('Incorrect! Sports was a vital part of my college experience');
+function getsportsAnswer(){
+  let sportsAnswer = prompt('Did I play sports in College? Please answer yes or no!');
+  let sportlowerCase = sportsAnswer.toLowerCase();
+  if (sportlowerCase === 'yes' || sportlowerCase === 'y') {
+    alert('Correct! Played Rugby at SMC!');
+    userPoints = userPoints + 1;
+  } else {
+    alert('Incorrect! Sports was a vital part of my college experience');
+  }
 }
-
 
 let countryAnswer = prompt('Have I lived outside the U.S.A? Please answer yes or no!');
 let irelandlowerCase = countryAnswer.toLowerCase();
@@ -115,7 +115,7 @@ results.innerHTML = finalresults;
 
 function runMyGame(){
   getVideoGames();
-
+  getsportsAnswer();
 }
 
 runMyGame();

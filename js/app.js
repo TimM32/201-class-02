@@ -114,13 +114,13 @@ function getcountriesVisited(){
   alert('You answered ' + correctAnswer + 'out of 6');
   alert('All the countries I visited are:' + countriesVisited.join(', '));
   alert('Thanks for playing my game ' + userName);
+
+
+  let results = document.getElementById('results');
+  console.log(results);
+  let finalresults = 'You guessed' + userAttempts + ' and got' + correctAnswer + ' correct answers.';
+  results.innerHTML = finalresults;
 }
-
-let results = document.getElementById('results');
-console.log(results);
-let finalresults = 'You guessed' + userAttempts + ' and got' + correctAnswer + ' correct answers.';
-results.innerHTML = finalresults;
-
 
 function runMyGame(){
   getVideoGames();

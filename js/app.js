@@ -54,15 +54,17 @@ function getdessertAnswer(){
   }
 }
 
-
-let favSports = prompt('Is Football my favorite Sport? Please answer yes or no!');
-let favlowerCase = favSports.toLowerCase();
-if (favlowerCase === 'yes' || favlowerCase === 'y') {
-  alert('Nope! That would be Rugby, I played it!');
-} else {
-  alert('You are right! Rugby to be is the most entertaining sport!');
-  userPoints = userPoints + 1;
+function getfavSports(){
+  let favSports = prompt('Is Football my favorite Sport? Please answer yes or no!');
+  let favlowerCase = favSports.toLowerCase();
+  if (favlowerCase === 'yes' || favlowerCase === 'y') {
+    alert('Nope! That would be Rugby, I played it!');
+  } else {
+    alert('You are right! Rugby to be is the most entertaining sport!');
+    userPoints = userPoints + 1;
+  }
 }
+
 
 let rightNumber = 8;
 let attempts = 0;
@@ -119,6 +121,7 @@ function runMyGame(){
   getsportsAnswer();
   getcountryAnswer();
   getdessertAnswer();
+  getfavSports();
 }
 
 runMyGame();

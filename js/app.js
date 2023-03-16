@@ -5,13 +5,13 @@ console.log('points?', userPoints);
 
 alert('Hello! Welcome to the Guessing Game by Tim!');
 
-function getUserName(){
-  let userName = prompt('What is your name?');
-  console.log('user name is: ', userName);
-  alert('Welcome ' + userName);
-}
 
-getUserName();
+let userName = prompt('What is your name?');
+console.log('user name is: ', userName);
+alert('Welcome ' + userName);
+
+
+
 
 
 let videoGames = prompt('Do I sometimes play video games in my free time? Please answer yes or no!');

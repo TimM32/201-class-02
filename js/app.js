@@ -43,16 +43,16 @@ function getcountryAnswer(){
   }
 }
 
-
-let dessertAnswer = prompt('Is Cake my favorite dessert? Please answer yes or no!');
-let dessertlowerCase = dessertAnswer.toLowerCase();
-if (dessertlowerCase === 'yes' || dessertlowerCase === 'y') {
-  alert('You are unfortunately Wrong! Cookies would be number 1!');
-} else {
-  alert('Right answer! Homemade Cookies are my favorite, but cake is a close second!');
-  userPoints = userPoints + 1;
+function getdessertAnswer(){
+  let dessertAnswer = prompt('Is Cake my favorite dessert? Please answer yes or no!');
+  let dessertlowerCase = dessertAnswer.toLowerCase();
+  if (dessertlowerCase === 'yes' || dessertlowerCase === 'y') {
+    alert('You are unfortunately Wrong! Cookies would be number 1!');
+  } else {
+    alert('Right answer! Homemade Cookies are my favorite, but cake is a close second!');
+    userPoints = userPoints + 1;
+  }
 }
-
 
 
 let favSports = prompt('Is Football my favorite Sport? Please answer yes or no!');
@@ -118,6 +118,7 @@ function runMyGame(){
   getVideoGames();
   getsportsAnswer();
   getcountryAnswer();
+  getdessertAnswer();
 }
 
 runMyGame();

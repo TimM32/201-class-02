@@ -85,7 +85,7 @@ let countriesVisited = ['ireland', 'england', 'egypt', 'germany', 'australia', '
 let userAttempts = 0;
 let correctAnswer = 0;
 
-while (attempts !== 6) {
+while (userAttempts < 6) {
   let userAnswer = prompt('What countries in the world have I visited');
   let normalizedInput = userAnswer.toLowerCase().trim();
 

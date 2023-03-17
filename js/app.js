@@ -12,7 +12,7 @@ alert('Welcome ' + userName);
 
 runMyGame();
 
-function getVideoGames(){
+function getVideoGames() {
   let videoGames = prompt('Do I sometimes play video games in my free time? Please answer yes or no!');
   let gamelowerCase = videoGames.toLowerCase();
   if (gamelowerCase === 'yes' || gamelowerCase === 'y') {
@@ -23,7 +23,7 @@ function getVideoGames(){
   }
 }
 
-function getsportsAnswer(){
+function getsportsAnswer() {
   let sportsAnswer = prompt('Did I play sports in College? Please answer yes or no!');
   let sportlowerCase = sportsAnswer.toLowerCase();
   if (sportlowerCase === 'yes' || sportlowerCase === 'y') {
@@ -34,7 +34,7 @@ function getsportsAnswer(){
   }
 }
 
-function getcountryAnswer(){
+function getcountryAnswer() {
   let countryAnswer = prompt('Have I lived outside the U.S.A? Please answer yes or no!');
   let irelandlowerCase = countryAnswer.toLowerCase();
   if (irelandlowerCase === 'yes' || irelandlowerCase === 'y') {
@@ -45,7 +45,7 @@ function getcountryAnswer(){
   }
 }
 
-function getdessertAnswer(){
+function getdessertAnswer() {
   let dessertAnswer = prompt('Is Cake my favorite dessert? Please answer yes or no!');
   let dessertlowerCase = dessertAnswer.toLowerCase();
   if (dessertlowerCase === 'yes' || dessertlowerCase === 'y') {
@@ -56,7 +56,7 @@ function getdessertAnswer(){
   }
 }
 
-function getfavSports(){
+function getfavSports() {
   let favSports = prompt('Is Football my favorite Sport? Please answer yes or no!');
   let favlowerCase = favSports.toLowerCase();
   if (favlowerCase === 'yes' || favlowerCase === 'y') {
@@ -67,7 +67,7 @@ function getfavSports(){
   }
 }
 
-function getrightNumber(){
+function getrightNumber() {
   let rightNumber = 8;
   let attempts = 0;
   while (attempts < 4) {
@@ -81,7 +81,7 @@ function getrightNumber(){
       alert('You guessed the correct number, ' + guessNumber + '! Great work!');
       userPoints = userPoints + 1;
       break;
-    // } if (guessNumber === wrongNumber) {
+      // } if (guessNumber === wrongNumber) {
     }
 
   }
@@ -89,7 +89,7 @@ function getrightNumber(){
   alert('Dang! The right answer is 8.');
 }
 
-function getcountriesVisited(){
+function getcountriesVisited() {
   let countriesVisited = ['ireland', 'england', 'egypt', 'germany', 'australia', 'new zealand', 'scotland', 'italy', 'france', 'romania', 'brazil', 'argentina', 'uruguay', 'israel', 'japan'];
   let userAttempts = 0;
   let correctAnswer = 0;
@@ -122,7 +122,7 @@ function getcountriesVisited(){
   results.innerHTML = finalResults;
 }
 
-function runMyGame(){
+function runMyGame() {
   getVideoGames();
   getsportsAnswer();
   getcountryAnswer();

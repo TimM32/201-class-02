@@ -4,6 +4,7 @@ body {
     width: 1200px;
     font-size: 30px;
 }
+
 header {
     padding-top: 20px;
     margin-bottom: 40px;
@@ -28,9 +29,9 @@ p {
 }
 
 h2 {
-
-
-
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
 }
 
 h3 {
@@ -46,8 +47,3 @@ ol li {
     padding: 5px;
 
 }
-
-
-
-
-

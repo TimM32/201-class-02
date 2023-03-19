@@ -27,6 +27,12 @@ p {
 }
 
 h2 {
+
+
+
+}
+
+h3 {
     text-align: center;
     font-size: 40px;
     padding: 10px;
@@ -38,8 +44,9 @@ ol li {
     background-color: rgba(231, 9, 9, 0.726);
     padding: 5px;
 
-
 }
+
+
 
 
 
